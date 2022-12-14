@@ -1,0 +1,33 @@
+03/06/2021 12:57:26:980 Welcome to InterProScan-5.46-81.0
+03/06/2021 12:57:26:985 Running InterProScan v5 in STANDALONE mode... on Linux
+03/06/2021 12:57:48:149 Loading file /ifs1/User/pengjx/project/Rice/6-2.function-annotation/v1/R900/interpro/../protein.fa
+03/06/2021 12:57:48:150 Running the following analyses:
+[CDD-3.17,Coils-2.2.1,Gene3D-4.2.0,Hamap-2020_01,MobiDBLite-2.0,Pfam-33.1,PIRSF-3.10,PRINTS-42.0,ProSitePatterns-2019_11,ProSiteProfiles-2019_11,SFLD-4,SMART-7.1,SUPERFAMILY-1.75,TIGRFAM-15.0]
+Available matches will be retrieved from the pre-calculated match lookup service.
+
+Matches for any sequences that are not represented in the lookup service will be calculated locally.
+03/06/2021 12:58:22:408 Uploaded 55654 unique sequences for analysis
+2021-06-03 12:58:28,817 [Thread-6] [uk.ac.ebi.interpro.scan.business.sequence.BerkeleyPrecalculatedProteinLookup:734] WARN - 
+
+The version of InterProScan you are using is 5.46-81.0
+The version of the lookup service you are using is 5.51-85.0
+As the data in these versions is not the same, you cannot use this match lookup service.
+InterProScan will now run locally
+If you would like to use the match lookup service, you have the following options:
+i) Download the newest version of InterProScan5 from our FTP site by following the instructions on:
+   https://www.ebi.ac.uk/interpro/interproscan.html
+ii) Download the match lookup service for your version of InterProScan from our FTP site and install it locally.
+    You will then need to edit the following property in your configuration file to point to your local installation:
+    precalculated.match.lookup.service.url=
+
+In the meantime, the analysis will continue to run locally.
+
+
+03/06/2021 13:03:28:728 37% completed
+03/06/2021 13:03:40:307 62% completed
+03/06/2021 13:03:45:241 87% completed
+03/06/2021 14:03:45:742 18% completed
+03/06/2021 15:03:46:459 33% completed
+03/06/2021 16:03:46:689 76% completed
+03/06/2021 16:45:57:372 100% done:  InterProScan analyses completed 
+
