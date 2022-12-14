@@ -1,0 +1,5 @@
+使用转录组证据bam和公共植物蛋白数据Orthodb
+转录组证据先比对得到bam。蛋白证据先用prothint预测得到prothint_augustus.gff。否则，如果直接用braker从头开始，将非常慢
+
+最后的结果没有UTR，需要用GUSHR软件处理，我没做
+braker2预测的基因数目偏多，但准确性值得商榷
