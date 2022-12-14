@@ -1,0 +1,61 @@
+/ifs1/User/pengjx/biosoft/quast-5.0.2/quast.py /ifs1/User/pengjx/project/rawdata/HiC-Report-20201126/R900/R900.fasta -t 10 -o R900
+
+Version: 5.0.2, 0bb1dd1b
+
+System information:
+  OS: Linux-4.18.0-193.el8.x86_64-x86_64-with-glibc2.10 (linux_64)
+  Python version: 3.8.3
+  CPUs number: 256
+
+Started: 2021-03-07 20:00:57
+
+Logging to /ifs1/User/pengjx/project/Rice/02.evaluate/quast/R900/quast.log
+
+CWD: /ifs1/User/pengjx/project/Rice/02.evaluate/quast
+Main parameters: 
+  MODE: default, threads: 10, minimum contig length: 500, minimum alignment length: 65, \
+  ambiguity: one, threshold for extensive misassembly size: 1000
+
+Contigs:
+  Pre-processing...
+  /ifs1/User/pengjx/project/rawdata/HiC-Report-20201126/R900/R900.fasta ==> R900
+
+2021-03-07 20:01:13
+Running Basic statistics processor...
+  Contig files: 
+    R900
+  Calculating N50 and L50...
+    R900, N50 = 31859513, L50 = 6, Total length = 396427114, GC % = 43.71, # N's per 100 kbp =  5.30
+  Drawing Nx plot...
+    saved to /ifs1/User/pengjx/project/Rice/02.evaluate/quast/R900/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /ifs1/User/pengjx/project/Rice/02.evaluate/quast/R900/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /ifs1/User/pengjx/project/Rice/02.evaluate/quast/R900/basic_stats/GC_content_plot.pdf
+  Drawing R900 GC content plot...
+    saved to /ifs1/User/pengjx/project/Rice/02.evaluate/quast/R900/basic_stats/R900_GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2021-03-07 20:01:29
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2021-03-07 20:01:33
+RESULTS:
+  Text versions of total report are saved to /ifs1/User/pengjx/project/Rice/02.evaluate/quast/R900/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /ifs1/User/pengjx/project/Rice/02.evaluate/quast/R900/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /ifs1/User/pengjx/project/Rice/02.evaluate/quast/R900/report.html
+  PDF version (tables and plots) is saved to /ifs1/User/pengjx/project/Rice/02.evaluate/quast/R900/report.pdf
+  Icarus (contig browser) is saved to /ifs1/User/pengjx/project/Rice/02.evaluate/quast/R900/icarus.html
+  Log is saved to /ifs1/User/pengjx/project/Rice/02.evaluate/quast/R900/quast.log
+
+Finished: 2021-03-07 20:01:33
+Elapsed time: 0:00:36.387546
+NOTICEs: 1; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

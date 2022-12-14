@@ -1,0 +1,15 @@
+# BUSCO version is: 5.0.0 
+# The lineage dataset is: embryophyta_odb10 (Creation date: 2020-09-10, number of species: 50, number of BUSCOs: 1614)
+# Summarized benchmarking in BUSCO notation for file /ifs1/User/pengjx/project/Rice/02.evaluate/busco/polish/3rd_pilon/R900/R900_3rd_polish.fasta
+# BUSCO was run in mode: genome
+# Gene predictor used: metaeuk
+
+	***** Results: *****
+
+	C:98.6%[S:96.3%,D:2.3%],F:0.9%,M:0.5%,n:1614	   
+	1592	Complete BUSCOs (C)			   
+	1555	Complete and single-copy BUSCOs (S)	   
+	37	Complete and duplicated BUSCOs (D)	   
+	14	Fragmented BUSCOs (F)			   
+	8	Missing BUSCOs (M)			   
+	1614	Total BUSCO groups searched		   

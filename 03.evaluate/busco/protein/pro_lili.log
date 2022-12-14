@@ -1,0 +1,35 @@
+INFO:	***** Start a BUSCO v5.0.0 analysis, current time: 05/19/2021 14:31:28 *****
+INFO:	Configuring BUSCO with local environment
+INFO:	Mode is proteins
+INFO:	Input file is /ifs1/User/pengjx/database/homology/R498/R498_CoreSet.pros.format.fasta
+INFO:	Using local lineages directory /ifs1/User/pengjx/project/Rice/02.evaluate/busco/version_1/odb/liliopsida_odb10
+INFO:	Running BUSCO using lineage dataset liliopsida_odb10 (eukaryota, 2020-09-10)
+INFO:	***** Run HMMER on gene sequences *****
+INFO:	Running 3236 job(s) on hmmsearch, starting at 05/19/2021 14:31:32
+INFO:	[hmmsearch]	324 of 3236 task(s) completed
+INFO:	[hmmsearch]	648 of 3236 task(s) completed
+INFO:	[hmmsearch]	971 of 3236 task(s) completed
+INFO:	[hmmsearch]	1295 of 3236 task(s) completed
+INFO:	[hmmsearch]	1619 of 3236 task(s) completed
+INFO:	[hmmsearch]	1942 of 3236 task(s) completed
+INFO:	[hmmsearch]	2266 of 3236 task(s) completed
+INFO:	[hmmsearch]	2589 of 3236 task(s) completed
+INFO:	[hmmsearch]	2913 of 3236 task(s) completed
+INFO:	[hmmsearch]	3236 of 3236 task(s) completed
+INFO:	
+
+	--------------------------------------------------
+	|Results from dataset liliopsida_odb10            |
+	--------------------------------------------------
+	|C:91.9%[S:59.1%,D:32.8%],F:3.7%,M:4.4%,n:3236    |
+	|2977	Complete BUSCOs (C)                       |
+	|1914	Complete and single-copy BUSCOs (S)       |
+	|1063	Complete and duplicated BUSCOs (D)        |
+	|119	Fragmented BUSCOs (F)                     |
+	|140	Missing BUSCOs (M)                        |
+	|3236	Total BUSCO groups searched               |
+	--------------------------------------------------
+INFO:	BUSCO analysis done. Total running time: 1413 seconds
+INFO:	Results written in /ifs1/User/pengjx/project/Rice/02.evaluate/busco/reference/R498/liliopsida_pro
+INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+

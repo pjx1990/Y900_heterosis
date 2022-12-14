@@ -1,0 +1,2 @@
+~/biosoft/anaconda3/bin/busco -m proteins -i /ifs1/User/pengjx/database/homology/R498/R498_CoreSet.pros.format.fasta -l /ifs1/User/pengjx/project/Rice/02.evaluate/busco/version_1/odb/liliopsida_odb10 -o liliopsida_pro -c 12 --offline -f
+~/biosoft/anaconda3/bin/busco -m proteins -i /ifs1/User/pengjx/database/homology/R498/R498_CoreSet.pros.format.fasta -l /ifs1/User/pengjx/project/Rice/02.evaluate/busco/version_1/odb/embryophyta_odb10 -o protein -c 12 --offline -f

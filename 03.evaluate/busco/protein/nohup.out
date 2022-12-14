@@ -1,0 +1,55 @@
+INFO:	***** Start a BUSCO v5.0.0 analysis, current time: 03/18/2021 11:48:44 *****
+INFO:	Configuring BUSCO with local environment
+INFO:	Mode is genome
+INFO:	Input file is /ifs1/User/pengjx/project/Rice/02.evaluate/busco/reference/R498/R498.fa
+INFO:	Using local lineages directory /ifs1/User/pengjx/project/Rice/02.evaluate/busco/version_1/odb/embryophyta_odb10
+INFO:	Running BUSCO using lineage dataset embryophyta_odb10 (eukaryota, 2020-09-10)
+INFO:	Running 1 job(s) on metaeuk, starting at 03/18/2021 11:48:45
+INFO:	[metaeuk]	1 of 1 task(s) completed
+INFO:	***** Run HMMER on gene sequences *****
+INFO:	Running 1614 job(s) on hmmsearch, starting at 03/18/2021 12:08:35
+INFO:	[hmmsearch]	162 of 1614 task(s) completed
+INFO:	[hmmsearch]	323 of 1614 task(s) completed
+INFO:	[hmmsearch]	485 of 1614 task(s) completed
+INFO:	[hmmsearch]	646 of 1614 task(s) completed
+INFO:	[hmmsearch]	808 of 1614 task(s) completed
+INFO:	[hmmsearch]	969 of 1614 task(s) completed
+INFO:	[hmmsearch]	1130 of 1614 task(s) completed
+INFO:	[hmmsearch]	1292 of 1614 task(s) completed
+INFO:	[hmmsearch]	1453 of 1614 task(s) completed
+INFO:	[hmmsearch]	1614 of 1614 task(s) completed
+INFO:	Extracting missing and fragmented buscos from the file refseq_db.faa...
+INFO:	Running 1 job(s) on metaeuk, starting at 03/18/2021 12:11:36
+INFO:	[metaeuk]	1 of 1 task(s) completed
+INFO:	***** Run HMMER on gene sequences *****
+INFO:	Running 30 job(s) on hmmsearch, starting at 03/18/2021 12:45:18
+INFO:	[hmmsearch]	3 of 30 task(s) completed
+INFO:	[hmmsearch]	6 of 30 task(s) completed
+INFO:	[hmmsearch]	9 of 30 task(s) completed
+INFO:	[hmmsearch]	12 of 30 task(s) completed
+INFO:	[hmmsearch]	15 of 30 task(s) completed
+INFO:	[hmmsearch]	18 of 30 task(s) completed
+INFO:	[hmmsearch]	21 of 30 task(s) completed
+INFO:	[hmmsearch]	24 of 30 task(s) completed
+INFO:	[hmmsearch]	27 of 30 task(s) completed
+INFO:	[hmmsearch]	30 of 30 task(s) completed
+INFO:	Validating exons and removing overlapping matches
+INFO:	Results:	C:98.5%[S:96.3%,D:2.2%],F:0.9%,M:0.6%,n:1614	   
+
+INFO:	
+
+	--------------------------------------------------
+	|Results from dataset embryophyta_odb10           |
+	--------------------------------------------------
+	|C:98.5%[S:96.3%,D:2.2%],F:0.9%,M:0.6%,n:1614     |
+	|1591	Complete BUSCOs (C)                       |
+	|1555	Complete and single-copy BUSCOs (S)       |
+	|36	Complete and duplicated BUSCOs (D)        |
+	|14	Fragmented BUSCOs (F)                     |
+	|9	Missing BUSCOs (M)                        |
+	|1614	Total BUSCO groups searched               |
+	--------------------------------------------------
+INFO:	BUSCO analysis done. Total running time: 3514 seconds
+INFO:	Results written in /ifs1/User/pengjx/project/Rice/02.evaluate/busco/reference/R498/58S
+INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+

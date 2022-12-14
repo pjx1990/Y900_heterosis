@@ -1,0 +1,20 @@
+INFO:__main__	****************** Start plot generation at 06/04/2021 16:25:53 ******************
+INFO:__main__	Load data ...
+INFO:__main__	Loaded embryophyta_odb10/short_summary.specific.embryophyta_odb10.9311.txt successfully
+INFO:__main__	Loaded embryophyta_odb10/short_summary.specific.embryophyta_odb10.MH63.txt successfully
+INFO:__main__	Loaded embryophyta_odb10/short_summary.specific.embryophyta_odb10.R498.txt successfully
+INFO:__main__	Loaded embryophyta_odb10/short_summary.specific.embryophyta_odb10.R900.txt successfully
+INFO:__main__	Loaded embryophyta_odb10/short_summary.specific.embryophyta_odb10.ZS97.txt successfully
+INFO:__main__	Loaded embryophyta_odb10/short_summary.specific.embryophyta_odb10.Y58S.txt successfully
+INFO:__main__	Loaded embryophyta_odb10/short_summary.specific.embryophyta_odb10.NIP.txt successfully
+INFO:__main__	Loaded embryophyta_odb10/short_summary.specific.embryophyta_odb10.HZ.txt successfully
+INFO:__main__	Loaded embryophyta_odb10/short_summary.specific.embryophyta_odb10.TF.txt successfully
+INFO:__main__	Generate the R code ...
+INFO:__main__	Run the R code ...
+INFO:__main__	
+[1] "Plotting the figure ..."
+[1] "Done"
+
+INFO:__main__	Plot generation done. Total running time: 4.9066925048828125 seconds
+INFO:__main__	Results written in embryophyta_odb10/
+
