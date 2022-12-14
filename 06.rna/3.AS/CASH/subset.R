@@ -1,0 +1,5 @@
+args=commandArgs(T)
+data=read.delim(paste0(args[1],".alldiff.txt"),header=T,sep="\t",check.names=F)
+print(names(data))
+da=subset(data,FDR<0.05)
+write.table(da,paste0(args[1],".diff.txt"),quote=F,sep="\t",row.names=F,col.names=T)
