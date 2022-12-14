@@ -1,0 +1,13 @@
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf /ifs1/User/pengjx/project/Rice/07.compare/two-assembly/reference58S-2/ref58S_qryR900_indel.vcf
+	--out Indeldensity_100k
+	--SNPdensity 100000
+
+After filtering, kept 0 out of 0 Individuals
+Outputting SNP density
+After filtering, kept 465895 out of a possible 465895 Sites
+Run Time = 0.00 seconds
