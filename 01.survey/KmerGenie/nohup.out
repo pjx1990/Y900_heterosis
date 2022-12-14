@@ -1,0 +1,49 @@
+running histogram estimation
+list of reads:
+/ifs1/User/pengjx/project/rawdata/Genome_CleanData/NGS/Clean/R900//PADsmpDAAAA-565_1.fq
+/ifs1/User/pengjx/project/rawdata/Genome_CleanData/NGS/Clean/R900//PADsmpDAAAA-565_2.fq
+/ifs1/User/pengjx/project/rawdata/Genome_CleanData/NGS/Clean/R900//PADsmpDAAAA-566_1.fq
+/ifs1/User/pengjx/project/rawdata/Genome_CleanData/NGS/Clean/R900//PADsmpDAAAA-566_2.fq
+/ifs1/User/pengjx/project/rawdata/Genome_CleanData/NGS/Clean/R900//PADsmpDAAAA-567_1.fq
+/ifs1/User/pengjx/project/rawdata/Genome_CleanData/NGS/Clean/R900//PADsmpDAAAA-567_2.fq
+/ifs1/User/pengjx/project/rawdata/Genome_CleanData/NGS/Clean/R900//PADsmpDAAAA-568_1.fq
+/ifs1/User/pengjx/project/rawdata/Genome_CleanData/NGS/Clean/R900//PADsmpDAAAA-568_2.fq
+/ifs1/User/pengjx/project/rawdata/Genome_CleanData/NGS/Clean/R900//PADsmpDAAAA-569_1.fq
+/ifs1/User/pengjx/project/rawdata/Genome_CleanData/NGS/Clean/R900//PADsmpDAAAA-569_2.fq
+/ifs1/User/pengjx/project/rawdata/Genome_CleanData/NGS/Clean/R900//PADsmpDAAAA-570_1.fq
+/ifs1/User/pengjx/project/rawdata/Genome_CleanData/NGS/Clean/R900//PADsmpDAAAA-570_2.fq
+/ifs1/User/pengjx/project/rawdata/Genome_CleanData/NGS/Clean/R900//PADsmpDAAAA-571_1.fq
+/ifs1/User/pengjx/project/rawdata/Genome_CleanData/NGS/Clean/R900//PADsmpDAAAA-571_2.fq
+/ifs1/User/pengjx/project/rawdata/Genome_CleanData/NGS/Clean/R900//PADsmpDAAAA-572_1.fq
+/ifs1/User/pengjx/project/rawdata/Genome_CleanData/NGS/Clean/R900//PADsmpDAAAA-572_2.fq
+Setting maximum kmer length to: 150 bp
+computing histograms (from k=21 to k=121): 121 111 101 91 81 71 61 51 41 31 21 estimation of the best k so far: 121
+
+ntCard wall-clock time over all k values: 885 seconds 
+fitting model to histograms to estimate best k
+refining estimation around [115; 121], with a step of 2
+running histogram estimation
+list of reads:
+/ifs1/User/pengjx/project/rawdata/Genome_CleanData/NGS/Clean/R900//PADsmpDAAAA-565_1.fq
+/ifs1/User/pengjx/project/rawdata/Genome_CleanData/NGS/Clean/R900//PADsmpDAAAA-565_2.fq
+/ifs1/User/pengjx/project/rawdata/Genome_CleanData/NGS/Clean/R900//PADsmpDAAAA-566_1.fq
+/ifs1/User/pengjx/project/rawdata/Genome_CleanData/NGS/Clean/R900//PADsmpDAAAA-566_2.fq
+/ifs1/User/pengjx/project/rawdata/Genome_CleanData/NGS/Clean/R900//PADsmpDAAAA-567_1.fq
+/ifs1/User/pengjx/project/rawdata/Genome_CleanData/NGS/Clean/R900//PADsmpDAAAA-567_2.fq
+/ifs1/User/pengjx/project/rawdata/Genome_CleanData/NGS/Clean/R900//PADsmpDAAAA-568_1.fq
+/ifs1/User/pengjx/project/rawdata/Genome_CleanData/NGS/Clean/R900//PADsmpDAAAA-568_2.fq
+/ifs1/User/pengjx/project/rawdata/Genome_CleanData/NGS/Clean/R900//PADsmpDAAAA-569_1.fq
+/ifs1/User/pengjx/project/rawdata/Genome_CleanData/NGS/Clean/R900//PADsmpDAAAA-569_2.fq
+/ifs1/User/pengjx/project/rawdata/Genome_CleanData/NGS/Clean/R900//PADsmpDAAAA-570_1.fq
+/ifs1/User/pengjx/project/rawdata/Genome_CleanData/NGS/Clean/R900//PADsmpDAAAA-570_2.fq
+/ifs1/User/pengjx/project/rawdata/Genome_CleanData/NGS/Clean/R900//PADsmpDAAAA-571_1.fq
+/ifs1/User/pengjx/project/rawdata/Genome_CleanData/NGS/Clean/R900//PADsmpDAAAA-571_2.fq
+/ifs1/User/pengjx/project/rawdata/Genome_CleanData/NGS/Clean/R900//PADsmpDAAAA-572_1.fq
+/ifs1/User/pengjx/project/rawdata/Genome_CleanData/NGS/Clean/R900//PADsmpDAAAA-572_2.fq
+Setting maximum kmer length to: 150 bp
+computing histograms (from k=117 to k=121): 121 119 117 table of predicted num. of genomic k-mers: test.dat
+recommended coverage cut-off for best k: 2
+best k: 121
+
+ntCard wall-clock time over all k values: 107 seconds 
+fitting model to histograms to estimate best k

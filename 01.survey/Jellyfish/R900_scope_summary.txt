@@ -1,0 +1,15 @@
+GenomeScope version 2.0
+input file = R900_kmer31.histo
+output directory = ./
+p = 2
+k = 31
+name prefix = R900_scope
+
+property                      min               max               
+Homozygous (aa)               0%                100%              
+Heterozygous (ab)             0%                100%              
+Genome Haploid Length         156,278,065 bp    156,541,271 bp    
+Genome Repeat Length          35,372,862 bp     35,432,437 bp     
+Genome Unique Length          120,905,204 bp    121,108,834 bp    
+Model Fit                     75.6566%          88.2061%          
+Read Error Rate               0.488568%         0.488568%         

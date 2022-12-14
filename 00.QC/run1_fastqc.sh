@@ -1,0 +1,12 @@
+#find /ifs1/User/pengjx/project/rawdata/RNA_cleanData/R900-1P-1/*.fq.gz |xargs fastqc -t 20 -o ./
+#find /ifs1/User/pengjx/project/rawdata/RNA_cleanData/R900-5P-1/*.fq.gz |xargs fastqc -t 20 -o ./
+#find /ifs1/User/pengjx/project/rawdata/RNA_cleanData/R900-L1/*.fq.gz |xargs fastqc -t 20 -o ./
+#find /ifs1/User/pengjx/project/rawdata/RNA_cleanData/R900-S1/*.fq.gz |xargs fastqc -t 20 -o ./
+#find /ifs1/User/pengjx/project/rawdata/RNA_cleanData/Y58S-1P-1/*.fq.gz |xargs fastqc -t 20 -o ./
+#find /ifs1/User/pengjx/project/rawdata/RNA_cleanData/Y58S-5P-1/*.fq.gz |xargs fastqc -t 20 -o ./
+#find /ifs1/User/pengjx/project/rawdata/RNA_cleanData/Y58S-L1/*.fq.gz |xargs fastqc -t 20 -o ./
+#find /ifs1/User/pengjx/project/rawdata/RNA_cleanData/Y58S-S1/*.fq.gz |xargs fastqc -t 20 -o ./
+#find /ifs1/User/pengjx/project/rawdata/RNA_cleanData/Y900-1P-1/*.fq.gz |xargs fastqc -t 20 -o ./
+#find /ifs1/User/pengjx/project/rawdata/RNA_cleanData/Y900-5P-1/*.fq.gz |xargs fastqc -t 20 -o ./
+#find /ifs1/User/pengjx/project/rawdata/RNA_cleanData/Y900-L1/*.fq.gz |xargs fastqc -t 20 -o ./
+find /ifs1/User/pengjx/project/rawdata/RNA_cleanData/Y900-S1/*.fq.gz |xargs fastqc -t 20 -o ./

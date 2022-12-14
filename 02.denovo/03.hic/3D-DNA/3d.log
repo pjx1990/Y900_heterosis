@@ -1,0 +1,142 @@
+/ifs1/User/pengjx/biosoft/3d-dna-master/run-asm-pipeline-post-review.sh -r ../genome.0.review.assembly reference/genome.fa aligned/merged_nodups.txt
+ -r|--review flag was triggered, treating file ../genome.0.review.assembly as a JB4A review file for draft fasta in arguments.
+###############
+Finilizing output:
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+:) -p flag was triggered. Running with GNU Parallel support parameter set to true.
+:) -q flag was triggered, starting calculations for 1 threshold mapping quality
+:) -i flag was triggered, building mapq without
+:) -c flag was triggered, will remove temporary files after completion
+...Remapping contact data from the original contig set to assembly
+...Building track files
+...Building the hic file
+Not including fragment map
+Start preprocess
+Writing header
+Writing body
+..
+Writing footer
+
+Finished preprocess
+HiC file version: 8
+
+Calculating norms for zoom BP_2500000
+Calculating norms for zoom BP_1000000
+Calculating norms for zoom BP_500000
+Calculating norms for zoom BP_250000
+Calculating norms for zoom BP_100000
+Calculating norms for zoom BP_50000
+Calculating norms for zoom BP_25000
+Calculating norms for zoom BP_10000
+Calculating norms for zoom BP_5000
+Calculating norms for zoom BP_1000
+Writing expected
+Writing norms
+Finished writing norms
+:| Warning: No input for label1 was provided. Default for label1 is ":::fragment_"
+:| Warning: No input for label2 was provided. Default for label2 is ":::debris"
+... -s flag was triggered, treating all contigs/scaffolds shorter than 15000 as unattempted.
+... -l flag was triggered. Output will appear with headers of the form genome_hic_scaffold_#.
+... -g flag was triggered, making gap size between scaffolded draft sequences to be equal to 500.
+Analyzing the merged assembly
+...trimming N overhangs
+...adding gaps

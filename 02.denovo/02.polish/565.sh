@@ -1,0 +1,1 @@
+bwa mem -t 10 index/R900 /ifs1/User/pengjx/project/rawdata/NGS_cleanData_backup/R900/run-*/PADsmpDAAAA-565_1.fq.gz /ifs1/User/pengjx/project/rawdata/NGS_cleanData_backup/R900/run-*/PADsmpDAAAA-565_2.fq.gz | /ifs1/Software/biosoft/samtools/samtools sort -@ 10 -O bam -o R900_565.bam 
