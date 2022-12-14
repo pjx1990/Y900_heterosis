@@ -1,0 +1,59 @@
+==================================================
+file name: R900.genome.fa           
+sequences:           189
+total length:  396427114 bp  (396406114 bp excl N/X-runs)
+GC level:         43.71 %
+bases masked:  191006119 bp ( 48.18 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements        72540    108982169 bp   27.49 %
+   SINEs:             2950       389102 bp    0.10 %
+   Penelope              0            0 bp    0.00 %
+   LINEs:             9434      4593643 bp    1.16 %
+    CRE/SLACS            0            0 bp    0.00 %
+     L2/CR1/Rex          0            0 bp    0.00 %
+     R1/LOA/Jockey       0            0 bp    0.00 %
+     R2/R4/NeSL          0            0 bp    0.00 %
+     RTE/Bov-B           0            0 bp    0.00 %
+     L1/CIN4          8977      4510727 bp    1.14 %
+   LTR elements:     60156    103999424 bp   26.23 %
+     BEL/Pao             0            0 bp    0.00 %
+     Ty1/Copia       10256     13109413 bp    3.31 %
+     Gypsy/DIRS1     43232     88716792 bp   22.38 %
+       Retroviral        0            0 bp    0.00 %
+
+DNA transposons     228931     62803166 bp   15.84 %
+   hobo-Activator    28927      5749008 bp    1.45 %
+   Tc1-IS630-Pogo    41705      7358297 bp    1.86 %
+   En-Spm                0            0 bp    0.00 %
+   MuDR-IS905            0            0 bp    0.00 %
+   PiggyBac              0            0 bp    0.00 %
+   Tourist/Harbinger 51051     10714187 bp    2.70 %
+   Other (Mirage,       56         7196 bp    0.00 %
+    P-element, Transib)
+
+Rolling-circles          0            0 bp    0.00 %
+
+Unclassified:        58005     15072283 bp    3.80 %
+
+Total interspersed repeats:   186857618 bp   47.14 %
+
+
+Small RNA:               0            0 bp    0.00 %
+
+Satellites:            755      4069324 bp    1.03 %
+Simple repeats:       3124       522894 bp    0.13 %
+Low complexity:         29         4358 bp    0.00 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+The query species was assumed to be oryza sativa  
+RepeatMasker Combined Database: Dfam_Consensus-20170127, RepBase-20170127
+        
+run with rmblastn version 2.2.27+
+

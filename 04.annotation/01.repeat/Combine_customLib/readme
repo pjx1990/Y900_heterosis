@@ -1,0 +1,2 @@
+先利用各种方法找出重复序列，建立定制化的TE库，最后用repeatmasker预测。
+这里custom library是利用RepeatMasker自带的水稻数据库和repeatmodeler从头预测的重复序列相整合，最后用repeatmsker预测。

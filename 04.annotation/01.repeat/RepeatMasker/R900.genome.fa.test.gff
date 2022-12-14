@@ -1,0 +1,10 @@
+##gff-version 2
+##date 2021-04-05
+##sequence-region R900.genome.fa
+Chr1	RepeatMasker	similarity	13964	14252	22.0	+	.	Target "Motif:Helitron-N173_OS" 2162 2376
+Chr1	RepeatMasker	similarity	14306	14377	16.7	+	.	Target "Motif:Helitron-N144_OS" 1354 1436
+Chr1	RepeatMasker	similarity	15060	15127	18.8	+	.	Target "Motif:Helitron-N60B_OS" 1009 1063
+Chr1	RepeatMasker	similarity	15091	15145	13.2	-	.	Target "Motif:EnSpm-23_OS" 5399 5452
+Chr1	RepeatMasker	similarity	15123	15303	10.1	-	.	Target "Motif:Helitron-N188_OS" 1097 1265
+Chr1	RepeatMasker	similarity	15367	15547	13.8	-	.	Target "Motif:Harbinger-N11_OS" 659 840
+Chr1	RepeatMasker	similarity	15593	15755	 9.2	-	.	Target "Motif:Harbinger-N11_OS" 1 171
