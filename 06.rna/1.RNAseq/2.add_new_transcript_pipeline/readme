@@ -1,0 +1,5 @@
+cut -f 1,38-40 -d',' gene_count_matrix_rename.csv >id
+cut -f 38,40 -d',' gene_count_matrix_rename.csv >id2
+
+#检测新的转录本，结果文件中的ref_gene_id和gene_name数目会不同，gene_nume更多，但里面也有重复。
+#如果用ref_gene_id，会导致一些基因不见了。比如NAL1（LOC_Os04g52479），如果不关注新转录本，最好不用这个流程
