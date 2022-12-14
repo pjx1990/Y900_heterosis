@@ -1,0 +1,50 @@
+-connecting to SQLite db: /ifs1/User/pengjx/project/Rice/06.annotation/PASA/58S-gmap/mydb.sqlite
+-*** Running PASA pipeine:
+* [Sun May 30 23:02:48 2021] Running CMD: /ifs1/User/pengjx/biosoft/anaconda3/envs/pasa/opt/pasa-2.4.1/scripts/Load_Current_Gene_Annotations.dbi -c annotationCompare.config -g 58S.genome.fa -P /ifs1/User/pengjx/project/Rice/06.annotation/EVM/58S-final/no_pasa/OsY58Sg_nopasa.gff3  > pasa_run.log.dir/output.annot_loading.759797.out
+
+Warning, no genes retrieved for contig_id: unanchor1
+Warning, no genes retrieved for contig_id: unanchor2
+Warning, no genes retrieved for contig_id: unanchor24
+Warning, no genes retrieved for contig_id: unanchor36
+Warning, no genes retrieved for contig_id: unanchor41
+Warning, no genes retrieved for contig_id: unanchor53
+Warning, no genes retrieved for contig_id: unanchor54
+Warning, no genes retrieved for contig_id: unanchor55
+Warning, no genes retrieved for contig_id: unanchor56
+Warning, no genes retrieved for contig_id: unanchor57
+Warning, no genes retrieved for contig_id: unanchor58
+Warning, no genes retrieved for contig_id: unanchor59
+Warning, no genes retrieved for contig_id: unanchor60
+Warning, no genes retrieved for contig_id: unanchor61
+Warning, no genes retrieved for contig_id: unanchor62
+Warning, no genes retrieved for contig_id: unanchor63
+Warning, no genes retrieved for contig_id: unanchor64
+Warning, no genes retrieved for contig_id: unanchor66
+Warning, no genes retrieved for contig_id: unanchor67
+Warning, no genes retrieved for contig_id: unanchor70
+Warning, no genes retrieved for contig_id: unanchor71
+Warning, no genes retrieved for contig_id: unanchor77
+Warning, no genes retrieved for contig_id: unanchor82
+Warning, no genes retrieved for contig_id: unanchor83
+Warning, no genes retrieved for contig_id: unanchor87
+Warning, no genes retrieved for contig_id: unanchor88
+Warning, no genes retrieved for contig_id: unanchor90
+Warning, no genes retrieved for contig_id: unanchor91
+Warning, no genes retrieved for contig_id: unanchor95
+Warning, no genes retrieved for contig_id: unanchor97
+Warning, no genes retrieved for contig_id: unanchor101
+Warning, no genes retrieved for contig_id: unanchor118
+Warning, no genes retrieved for contig_id: unanchor125
+Warning, no genes retrieved for contig_id: unanchor126
+* [Sun May 30 23:04:33 2021] Running CMD: /ifs1/User/pengjx/biosoft/anaconda3/envs/pasa/opt/pasa-2.4.1/scripts/cDNA_annotation_comparer.dbi -G 58S.genome.fa --CPU 30 -M '/ifs1/User/pengjx/project/Rice/06.annotation/PASA/58S-gmap/mydb.sqlite'  > pasa_run.log.dir/mydb.sqlite.annotation_compare.759797.out
+* [Mon May 31 18:45:39 2021] Running CMD: /ifs1/User/pengjx/biosoft/anaconda3/envs/pasa/opt/pasa-2.4.1/scripts/dump_valid_annot_updates.dbi -M '/ifs1/User/pengjx/project/Rice/06.annotation/PASA/58S-gmap/mydb.sqlite' -V -R -g 58S.genome.fa > mydb.sqlite.gene_structures_post_PASA_updates.759797.gff3
+* [Mon May 31 19:42:02 2021] Running CMD: /ifs1/User/pengjx/biosoft/anaconda3/envs/pasa/opt/pasa-2.4.1/scripts/../misc_utilities/gff3_file_to_bed.pl mydb.sqlite.gene_structures_post_PASA_updates.759797.gff3 > mydb.sqlite.gene_structures_post_PASA_updates.759797.bed
+
+
+
+
+###############################################################
+## Finished.  Consider using PasaWeb to explore the results ###
+###############################################################
+
+

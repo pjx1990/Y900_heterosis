@@ -1,0 +1,75 @@
+jar time stamp: Mon Sep 07 19:15:21 CST 2020
+
+Searching for the new GeMoMa updates ...
+You are using the latest GeMoMa version.
+
+Parameters of tool "GeMoMa Annotation Filter" (GAF, version: 1.7.1):
+t - tag (the tag used to read the GeMoMa annotations, default = mRNA)	= mRNA
+c - common border filter (the filter on the common borders of transcripts, the lower the more transcripts will be checked as alternative splice isoforms, valid range = [0.0, 1.0], default = 0.75)	= 0.75
+m - maximal number of transcripts per gene (the maximal number of allowed transcript predictions per gene, valid range = [1, 2147483647], default = 2147483647)	= 2147483647
+	The following parameter(s) can be used multiple times:
+	p (1) - prefix (the prefix can be used to distinguish predictions from different input files, OPTIONAL)	= null
+	w (1) - weight (the weight can be used to prioritize predictions from different input files; each prediction will get an additional attribute sumWeight that can be used in the filter, valid range = [0.0, 1000.0], default = 1.0, OPTIONAL)	= 1.0
+	g (1) - gene annotation file (GFF file containing the gene annotations (predicted by GeMoMa), mime = gff,gff3)	= 9311/final_annotation.gff
+	a (1) - annotation info (annotation information of the reference, tab-delimted file containing at least the columns transcriptName, GO and .*defline, mime = tabular, OPTIONAL)	= null
+	p (2) - prefix (the prefix can be used to distinguish predictions from different input files, OPTIONAL)	= null
+	w (2) - weight (the weight can be used to prioritize predictions from different input files; each prediction will get an additional attribute sumWeight that can be used in the filter, valid range = [0.0, 1000.0], default = 1.0, OPTIONAL)	= 1.0
+	g (2) - gene annotation file (GFF file containing the gene annotations (predicted by GeMoMa), mime = gff,gff3)	= msu7/final_annotation.gff
+	a (2) - annotation info (annotation information of the reference, tab-delimted file containing at least the columns transcriptName, GO and .*defline, mime = tabular, OPTIONAL)	= null
+	p (3) - prefix (the prefix can be used to distinguish predictions from different input files, OPTIONAL)	= null
+	w (3) - weight (the weight can be used to prioritize predictions from different input files; each prediction will get an additional attribute sumWeight that can be used in the filter, valid range = [0.0, 1000.0], default = 1.0, OPTIONAL)	= 1.0
+	g (3) - gene annotation file (GFF file containing the gene annotations (predicted by GeMoMa), mime = gff,gff3)	= R498/final_annotation.gff
+	a (3) - annotation info (annotation information of the reference, tab-delimted file containing at least the columns transcriptName, GO and .*defline, mime = tabular, OPTIONAL)	= null
+	p (4) - prefix (the prefix can be used to distinguish predictions from different input files, OPTIONAL)	= null
+	w (4) - weight (the weight can be used to prioritize predictions from different input files; each prediction will get an additional attribute sumWeight that can be used in the filter, valid range = [0.0, 1000.0], default = 1.0, OPTIONAL)	= 1.0
+	g (4) - gene annotation file (GFF file containing the gene annotations (predicted by GeMoMa), mime = gff,gff3)	= mh63/final_annotation.gff
+	a (4) - annotation info (annotation information of the reference, tab-delimted file containing at least the columns transcriptName, GO and .*defline, mime = tabular, OPTIONAL)	= null
+	p (5) - prefix (the prefix can be used to distinguish predictions from different input files, OPTIONAL)	= null
+	w (5) - weight (the weight can be used to prioritize predictions from different input files; each prediction will get an additional attribute sumWeight that can be used in the filter, valid range = [0.0, 1000.0], default = 1.0, OPTIONAL)	= 1.0
+	g (5) - gene annotation file (GFF file containing the gene annotations (predicted by GeMoMa), mime = gff,gff3)	= zs97/final_annotation.gff
+	a (5) - annotation info (annotation information of the reference, tab-delimted file containing at least the columns transcriptName, GO and .*defline, mime = tabular, OPTIONAL)	= null
+	p (6) - prefix (the prefix can be used to distinguish predictions from different input files, OPTIONAL)	= null
+	w (6) - weight (the weight can be used to prioritize predictions from different input files; each prediction will get an additional attribute sumWeight that can be used in the filter, valid range = [0.0, 1000.0], default = 1.0, OPTIONAL)	= 1.0
+	g (6) - gene annotation file (GFF file containing the gene annotations (predicted by GeMoMa), mime = gff,gff3)	= b73/final_annotation.gff
+	a (6) - annotation info (annotation information of the reference, tab-delimted file containing at least the columns transcriptName, GO and .*defline, mime = tabular, OPTIONAL)	= null
+	p (7) - prefix (the prefix can be used to distinguish predictions from different input files, OPTIONAL)	= null
+	w (7) - weight (the weight can be used to prioritize predictions from different input files; each prediction will get an additional attribute sumWeight that can be used in the filter, valid range = [0.0, 1000.0], default = 1.0, OPTIONAL)	= 1.0
+	g (7) - gene annotation file (GFF file containing the gene annotations (predicted by GeMoMa), mime = gff,gff3)	= tair10/final_annotation.gff
+	a (7) - annotation info (annotation information of the reference, tab-delimted file containing at least the columns transcriptName, GO and .*defline, mime = tabular, OPTIONAL)	= null
+d - default attributes (Comma-separated list of attributes that is set to NaN if they are not given in the annotation file. This allows to use these attributes for sorting or filter criteria. It is especially meaningful if the gene annotation files were received fom different software packages (e.g., GeMoMa, Braker, ...) having different attributes., default = tie,tde,tae,iAA,pAA,score)	= tie,tde,tae,iAA,pAA,score
+f - filter (A filter can be applied to transcript predictions to receive only reasonable predictions. The filter is applied to the GFF attributes. The default filter decides based on the completeness of the prediction (start=='M' and stop=='*') and the relative score (score/aa>=0.75) whether a prediction is used or not. In addition, predictions without score (isNaN(score)) will be used as external annotations do not have the attribute score. Different criteria can be combined using 'and' and 'or'. A more sophisticated filter could be applied for instance using the completeness, the relative score, the evidence as well as statistics based on RNA-seq: start=='M' and stop=='*' and score/aa>=0.75 and (evidence>1 or tpc==1.0), default = start=='M' and stop=='*' and (isNaN(score) or score/aa>=0.75), OPTIONAL)	= start=='M' and stop=='*' and (isNaN(score) or score/aa>=0.75)
+s - sorting (comma-separated list that defines the way predictions are sorted within a cluster, default = evidence,score)	= evidence,score
+atf - alternative transcript filter (If a prediction is suggested as an alternative transcript, this additional filter will be applied. The filter works syntactically like the 'filter' parameter and allows you to keep the number of alternative transcripts small based on meaningful criteria. Reasonable filter could be based on RNA-seq data (tie==1) or on evidence (evidence>1). A more sophisticated filter could be applied combining several criteria: tie==1 or evidence>1, default = tie==1 or evidence>1, OPTIONAL)	= tie==1 or evidence>1
+outdir - The output directory, defaults to the current working directory (.)	= all
+Delete attributes in evidence file 0 (): 41251 "evidence", 41251 "Parent", 41251 "sumWeight", 7502 "alternative"
+Delete attributes in evidence file 1 (): 63545 "evidence", 63545 "Parent", 63545 "sumWeight", 10967 "alternative"
+Delete attributes in evidence file 2 (): 60229 "evidence", 60229 "Parent", 60229 "sumWeight", 8269 "alternative"
+Delete attributes in evidence file 3 (): 70605 "evidence", 70605 "Parent", 70605 "sumWeight", 10362 "alternative"
+Delete attributes in evidence file 4 (): 67702 "evidence", 67702 "Parent", 67702 "sumWeight", 10735 "alternative"
+Delete attributes in evidence file 5 (): 22813 "evidence", 22813 "Parent", 22813 "sumWeight", 9532 "alternative"
+Delete attributes in evidence file 6 (): 21233 "evidence", 21233 "Parent", 21233 "sumWeight", 21233 "alternative"
+all: 347378
+filtered: 239226
+alternative transcript filtered: 49003
+clustered: 93343
+
+genes: 114513
+transcripts: 117856
+
+	genes	genes with maxTie=1	transcripts	transcripts with tie=1	transcripts with tie=NA, tpc=1
+(max)evidence=1	70729	0	70729	0	0
+(max)evidence=2	19216	0	22276	0	0
+(max)evidence=3	7873	0	8136	0	0
+(max)evidence=4	6127	0	6146	0	0
+(max)evidence=5	5181	0	5182	0	0
+(max)evidence=6	3933	0	3933	0	0
+(max)evidence=7	1454	0	1454	0	0
+
+input	filtered transcripts	final transcripts supported	final genes supported
+input 0	41251	23104	23026
+input 1	63545	40559	40461
+input 2	60229	33578	33560
+input 3	70605	51523	51523
+input 4	67702	47032	47031
+input 5	22813	16056	15974
+input 6	21233	12107	12056

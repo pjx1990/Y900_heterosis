@@ -1,0 +1,96 @@
+--------------------------------------------------------------------------------
+
+Compute mrna with isoforms if any
+
+Number of genes                              47799
+Number of mrnas                              47799
+Number of cdss                               47799
+Number of exons                              202381
+Number of exon in cds                        202381
+Number of intron in cds                      154582
+Number of intron in exon                     154582
+Number gene overlapping                      0
+Number of single exon gene                   12170
+Number of single exon mrna                   12170
+mean mrnas per gene                          1.0
+mean cdss per mrna                           1.0
+mean exons per mrna                          4.2
+mean exons per cds                           4.2
+mean introns in cdss per mrna                3.2
+mean introns in exons per mrna               3.2
+Total gene length                            167996298
+Total mrna length                            167996298
+Total cds length                             49856171
+Total exon length                            49856171
+Total intron length per cds                  118140127
+Total intron length per exon                 118140127
+mean gene length                             3514
+mean mrna length                             3514
+mean cds length                              1043
+mean exon length                             246
+mean cds piece length                        246
+mean intron in cds length                    764
+mean intron in exon length                   764
+Longest gene                                 95044
+Longest mrna                                 95044
+Longest cds                                  16005
+Longest exon                                 14871
+Longest cds piece                            14871
+Longest intron into cds part                 86870
+Longest intron into exon part                86870
+Shortest gene                                150
+Shortest mrna                                150
+Shortest cds                                 138
+Shortest exon                                1
+Shortest cds piece                           1
+Shortest intron into cds part                21
+Shortest intron into exon part               21
+
+Re-compute mrna without isoforms asked. We remove shortest isoforms if any
+
+Number of genes                              47799
+Number of mrnas                              47799
+Number of cdss                               47799
+Number of exons                              202381
+Number of exon in cds                        202381
+Number of intron in cds                      154582
+Number of intron in exon                     154582
+Number gene overlapping                      0
+Number of single exon gene                   12170
+Number of single exon mrna                   12170
+mean mrnas per gene                          1.0
+mean cdss per mrna                           1.0
+mean exons per mrna                          4.2
+mean exons per cds                           4.2
+mean introns in cdss per mrna                3.2
+mean introns in exons per mrna               3.2
+Total gene length                            167996298
+Total mrna length                            167996298
+Total cds length                             49856171
+Total exon length                            49856171
+Total intron length per cds                  118140127
+Total intron length per exon                 118140127
+mean gene length                             3514
+mean mrna length                             3514
+mean cds length                              1043
+mean exon length                             246
+mean cds piece length                        246
+mean intron in cds length                    764
+mean intron in exon length                   764
+Longest gene                                 95044
+Longest mrna                                 95044
+Longest cds                                  16005
+Longest exon                                 14871
+Longest cds piece                            14871
+Longest intron into cds part                 86870
+Longest intron into exon part                86870
+Shortest gene                                150
+Shortest mrna                                150
+Shortest cds                                 138
+Shortest exon                                1
+Shortest cds piece                           1
+Shortest intron into cds part                21
+Shortest intron into exon part               21
+
+--------------------------------------------------------------------------------
+

@@ -1,0 +1,100 @@
+##gff-version 3
+# This output was generated with AUGUSTUS (version 3.3.1).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /ifs1/Software/biosoft/augustus-3.3.1/config/ ...
+# rice version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(1), CTG(0), TTG(0)
+# Looks like 58S.genome.masked.fa is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 43788308, name = Chr1) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+Chr1	AUGUSTUS	gene	7026	15400	1	+	.	ID=g1
+Chr1	AUGUSTUS	transcript	7026	15400	.	+	.	ID=g1.t1;Parent=g1
+Chr1	AUGUSTUS	transcription_start_site	7026	7026	.	+	.	Parent=g1.t1
+Chr1	AUGUSTUS	exon	7026	7149	.	+	.	Parent=g1.t1
+Chr1	AUGUSTUS	exon	8787	9049	.	+	.	Parent=g1.t1
+Chr1	AUGUSTUS	start_codon	8882	8884	.	+	0	Parent=g1.t1
+Chr1	AUGUSTUS	intron	9050	9789	.	+	.	Parent=g1.t1
+Chr1	AUGUSTUS	intron	9889	10889	.	+	.	Parent=g1.t1
+Chr1	AUGUSTUS	intron	10994	12568	.	+	.	Parent=g1.t1
+Chr1	AUGUSTUS	intron	13378	13460	.	+	.	Parent=g1.t1
+Chr1	AUGUSTUS	intron	13584	13664	.	+	.	Parent=g1.t1
+Chr1	AUGUSTUS	intron	13754	13840	.	+	.	Parent=g1.t1
+Chr1	AUGUSTUS	intron	14063	14642	.	+	.	Parent=g1.t1
+Chr1	AUGUSTUS	CDS	8882	9049	.	+	0	ID=g1.t1.cds;Parent=g1.t1
+Chr1	AUGUSTUS	CDS	9790	9888	.	+	0	ID=g1.t1.cds;Parent=g1.t1
+Chr1	AUGUSTUS	exon	9790	9888	.	+	.	Parent=g1.t1
+Chr1	AUGUSTUS	CDS	10890	10993	.	+	0	ID=g1.t1.cds;Parent=g1.t1
+Chr1	AUGUSTUS	exon	10890	10993	.	+	.	Parent=g1.t1
+Chr1	AUGUSTUS	CDS	12569	13377	.	+	1	ID=g1.t1.cds;Parent=g1.t1
+Chr1	AUGUSTUS	exon	12569	13377	.	+	.	Parent=g1.t1
+Chr1	AUGUSTUS	CDS	13461	13583	.	+	2	ID=g1.t1.cds;Parent=g1.t1
+Chr1	AUGUSTUS	exon	13461	13583	.	+	.	Parent=g1.t1
+Chr1	AUGUSTUS	CDS	13665	13753	.	+	2	ID=g1.t1.cds;Parent=g1.t1
+Chr1	AUGUSTUS	exon	13665	13753	.	+	.	Parent=g1.t1
+Chr1	AUGUSTUS	CDS	13841	14062	.	+	0	ID=g1.t1.cds;Parent=g1.t1
+Chr1	AUGUSTUS	exon	13841	14062	.	+	.	Parent=g1.t1
+Chr1	AUGUSTUS	CDS	14643	15104	.	+	0	ID=g1.t1.cds;Parent=g1.t1
+Chr1	AUGUSTUS	exon	14643	15400	.	+	.	Parent=g1.t1
+Chr1	AUGUSTUS	stop_codon	15102	15104	.	+	0	Parent=g1.t1
+Chr1	AUGUSTUS	transcription_end_site	15400	15400	.	+	.	Parent=g1.t1
+# coding sequence = [atgtcgtcggccgcgggccaagacaacggagataccgctggggactacatcaagtggatgtgcggcgccggtggccgtg
+# cgggcggcgccatggccaacctccagcgcggcgttggctccctcgtccgtgacattggcgacccctgcctcaacccatcccccgttaaggggagcaaa
+# atgctcaaaccggaaaaatggcacacatgttttgataatgatggaaaggtcataggtttccgtaaagccctaaaattcattgtcttagggggtgtgga
+# tcccactattcgagctgaagtttgggaatttcttcttggctgctatgccttgagtagtacctcagagtataggaggaaactaagagctgttagaaggg
+# aaaaatatcaaattttagttagacagtgccagagcatgcacccaagcattggtacaggtgagcttgcttacgctgttggatcaaagctaatggatgtc
+# aggactatgtcaaaagaaacccacattgcagaagaagttagcacaagtcaacaaacttcacaaaatacagctggcagtttagtagaagattcagatta
+# tggccccggtggtgcacagcagtcacaaaaaagggaaagctgtagtaaatcagctgaactagttggtttcaacgtacataatgatacctctctttatg
+# attcttccaattttattgtgtcttctacagaagtgaataattgctcaaaagattctcaggattacaatgacatgggtgaaccaagatatgacactgag
+# accttcgatgattatccttctctacctgttacaaattttttctcaactgatggtgtgggcagcaatggagttgataaaaatcattgtagtttctcagt
+# tcctgaagatagattaaggcaccgtgatgaacgtatgcacagcttccaaatcaataataacatagatctcattatagagtcaaattcatgctccagtg
+# atgtgtttagggctagcaacagtgattcagccatctttcactcagatgcatacaagcaggatagatggttagatgataatggctataacagggaagtt
+# atagattccttgaggatatctgatgcaccagaagcagattttgttgatggaaccaaatccaacagtgtggttgccagcaaagatcgagtctctgaatg
+# gctttggacactgcaccgaattgtggttgatgtggttagaacggatagtcatcttgatttctatggagaatcaagaaatatggctaggatgtcagata
+# tacttgcagtttatgcatgggttgatccttccaccgggtattgccaaggtatgagtgatctactttcaccttttgttgttctctatgaggatgatgca
+# gatgccttttggtgctttgagatgctactgagaaggatgcgtgaaaatttccagatggagggaccaacaggagttatgaagcagttgcaagcattgtg
+# gaagatcatggaaataactgatgtagaattatttgaacatttgtcaacaattggtgctgaaagccttcattttgctttccggatgctgctagtgcttt
+# ttcgtcgagagctgtcctttgaggagtcacttagcatgtgggaggtgtggcatttgaagacacatatgatgtgggctgctgactttaatgaagatgtg
+# attttacatttggaagagaattgtctggagccattgctggtagatatgaggaatgatttatcatgtgaggtgaaagaagagcaccgggtgaacagtta
+# cacaagaagaaagtccaaaagcaggaagccccatcatagaaatggtgaaatgcgtgtagcttgcaaccttggaatgaaacccaatacaagaaatcccc
+# tctgtggcttgtcaggagctactatttgggcaagacatcagcagatgccacatataagcacaaatgtgttagcaaagaatggagatgatgatctgcct
+# atattctgcgtagcagcaatccttgtaatcaatcgccacaagataattagagaaactcgctcaatagatgatgcaatcaaggcaagtttaagtcacaa
+# cttcctttcatattgtttacaaacctcggatccatga]
+# protein sequence = [MSSAAGQDNGDTAGDYIKWMCGAGGRAGGAMANLQRGVGSLVRDIGDPCLNPSPVKGSKMLKPEKWHTCFDNDGKVIG
+# FRKALKFIVLGGVDPTIRAEVWEFLLGCYALSSTSEYRRKLRAVRREKYQILVRQCQSMHPSIGTGELAYAVGSKLMDVRTMSKETHIAEEVSTSQQT
+# SQNTAGSLVEDSDYGPGGAQQSQKRESCSKSAELVGFNVHNDTSLYDSSNFIVSSTEVNNCSKDSQDYNDMGEPRYDTETFDDYPSLPVTNFFSTDGV
+# GSNGVDKNHCSFSVPEDRLRHRDERMHSFQINNNIDLIIESNSCSSDVFRASNSDSAIFHSDAYKQDRWLDDNGYNREVIDSLRISDAPEADFVDGTK
+# SNSVVASKDRVSEWLWTLHRIVVDVVRTDSHLDFYGESRNMARMSDILAVYAWVDPSTGYCQGMSDLLSPFVVLYEDDADAFWCFEMLLRRMRENFQM
+# EGPTGVMKQLQALWKIMEITDVELFEHLSTIGAESLHFAFRMLLVLFRRELSFEESLSMWEVWHLKTHMMWAADFNEDVILHLEENCLEPLLVDMRND
+# LSCEVKEEHRVNSYTRRKSKSRKPHHRNGEMRVACNLGMKPNTRNPLCGLSGATIWARHQQMPHISTNVLAKNGDDDLPIFCVAAILVINRHKIIRET
+# RSIDDAIKASLSHNFLSYCLQTSDP]
+# end gene g1
+###
+# start gene g2
+Chr1	AUGUSTUS	gene	16417	17655	1	-	.	ID=g2
+Chr1	AUGUSTUS	transcript	16417	17655	.	-	.	ID=g2.t1;Parent=g2
+Chr1	AUGUSTUS	transcription_end_site	16417	16417	.	-	.	Parent=g2.t1
+Chr1	AUGUSTUS	exon	16417	17655	.	-	.	Parent=g2.t1
+Chr1	AUGUSTUS	stop_codon	16805	16807	.	-	0	Parent=g2.t1
+Chr1	AUGUSTUS	CDS	16805	17509	.	-	0	ID=g2.t1.cds;Parent=g2.t1
+Chr1	AUGUSTUS	start_codon	17507	17509	.	-	0	Parent=g2.t1
+Chr1	AUGUSTUS	transcription_start_site	17655	17655	.	-	.	Parent=g2.t1
+# coding sequence = [atggctacatatgtacctgttgttgatgatgcaggacatgatcggcgtgatggaggagacgacgtcgaagatgctcggc
+# gagtggagcgacatagtggcgttgggacacagctgcatcgacatcgagaagggcgttgtccggaacgccgccgagatcatcgccaaggccagcttcag
+# catcgccgccgacgacgccacggtcttccacaaagctgcaggcgatgctgttccgctccacgcgtgcgtctcgtcagcgtcccgctcgccagcctcct
+# ccatatccgcgcggaccgcgccacctacgaggcgtggaagctgggccgcaagatcgacgcgctcctgctcgacatcatcgagtcgcggcggcggtgtg
+# aaggcggcggcaggaagacgacgacgacggacctgttgtggctgctgctggccgggaacgaggcgagcgccgccgcagagaggaagcttacgacggcg
+# ctggcgctgtcgtggacgctactgatgctggcgacgcacccggagtggcgggcggcggtgcgggaggaggtggaggaggtgaccggttggtctggccc
+# catggacgcggcggcgatgggaaagctcaccaagatggggtgcatgctaaacgaggtgctccggctgtatccgccttcgccgaacgtgcagaggccgg
+# ccgcgtgcgatgcggaggttgtgcgcgggaagaggtga]
+# protein sequence = [MATYVPVVDDAGHDRRDGGDDVEDARRVERHSGVGTQLHRHREGRCPERRRDHRQGQLQHRRRRRHGLPQSCRRCCSA
+# PRVRLVSVPLASLLHIRADRATYEAWKLGRKIDALLLDIIESRRRCEGGGRKTTTTDLLWLLLAGNEASAAAERKLTTALALSWTLLMLATHPEWRAA
+# VREEVEEVTGWSGPMDAAAMGKLTKMGCMLNEVLRLYPPSPNVQRPAACDAEVVRGKR]

@@ -1,0 +1,1 @@
+augustus --strand=both --genemodel=complete --singlestrand=false --UTR=on --noInFrameStop=true --protein=on --introns=on --start=on --stop=on --cds=on --codingseq=on --alternatives-from-sampling=true --gff3=on --outfile=58S.augustus.gff --species=rice 58S.genome.masked.fa

@@ -1,0 +1,100 @@
+Chr6	exonerate	match	29273999	29274682	.	+	.	ID=exonerate.1;Target=Q3E7K8
+
+Chr6	exonerate	match	29274227	29274910	.	+	.	ID=exonerate.2;Target=Q3E7K8
+
+Chr6	exonerate	match	29274455	29275138	.	+	.	ID=exonerate.3;Target=Q3E7K8
+
+Chr6	exonerate	match	29274683	29275366	.	+	.	ID=exonerate.4;Target=Q3E7K8
+
+Chr11	exonerate	match	2107932	2108034	.	+	.	ID=exonerate.5;Target=Q4GZK2
+Chr11	exonerate	match	2108134	2108225	.	+	.	ID=exonerate.5;Target=Q4GZK2
+Chr11	exonerate	match	2108345	2108422	.	+	.	ID=exonerate.5;Target=Q4GZK2
+Chr11	exonerate	match	2108538	2108608	.	+	.	ID=exonerate.5;Target=Q4GZK2
+Chr11	exonerate	match	2109298	2109556	.	+	.	ID=exonerate.5;Target=Q4GZK2
+
+Chr5	exonerate	match	30211743	30211931	.	-	.	ID=exonerate.6;Target=Q6K550
+Chr5	exonerate	match	30211253	30211373	.	-	.	ID=exonerate.6;Target=Q6K550
+Chr5	exonerate	match	30210932	30211120	.	-	.	ID=exonerate.6;Target=Q6K550
+Chr5	exonerate	match	30210483	30210832	.	-	.	ID=exonerate.6;Target=Q6K550
+
+Chr1	exonerate	match	12553064	12554236	.	-	.	ID=exonerate.7;Target=Q96552
+
+Chr1	exonerate	match	10836725	10837903	.	-	.	ID=exonerate.8;Target=Q96552
+
+Chr1	exonerate	match	5822659	5823228	.	-	.	ID=exonerate.9;Target=Q96552
+
+Chr2	exonerate	match	12821026	12821170	.	+	.	ID=exonerate.10;Target=Q39219
+Chr2	exonerate	match	12821280	12821408	.	+	.	ID=exonerate.10;Target=Q39219
+Chr2	exonerate	match	12822213	12822701	.	+	.	ID=exonerate.10;Target=Q39219
+Chr2	exonerate	match	12822830	12822886	.	+	.	ID=exonerate.10;Target=Q39219
+
+Chr2	exonerate	match	30488630	30488941	.	-	.	ID=exonerate.11;Target=Q39219
+Chr2	exonerate	match	30488375	30488503	.	-	.	ID=exonerate.11;Target=Q39219
+Chr2	exonerate	match	30487796	30488284	.	-	.	ID=exonerate.11;Target=Q39219
+
+Chr3	exonerate	match	38432228	38433280	.	+	.	ID=exonerate.12;Target=O04706
+
+Chr4	exonerate	match	33656150	33656260	.	-	.	ID=exonerate.13;Target=Q9ZR08
+Chr4	exonerate	match	33606163	33606373	.	-	.	ID=exonerate.13;Target=Q9ZR08
+Chr4	exonerate	match	33592253	33592490	.	-	.	ID=exonerate.13;Target=Q9ZR08
+Chr4	exonerate	match	33586888	33587038	.	-	.	ID=exonerate.13;Target=Q9ZR08
+Chr4	exonerate	match	33586589	33586801	.	-	.	ID=exonerate.13;Target=Q9ZR08
+
+Chr4	exonerate	match	33686506	33686610	.	-	.	ID=exonerate.14;Target=Q9ZR08
+Chr4	exonerate	match	33686146	33686356	.	-	.	ID=exonerate.14;Target=Q9ZR08
+Chr4	exonerate	match	33685799	33686036	.	-	.	ID=exonerate.14;Target=Q9ZR08
+Chr4	exonerate	match	33685422	33685572	.	-	.	ID=exonerate.14;Target=Q9ZR08
+Chr4	exonerate	match	33616009	33616263	.	-	.	ID=exonerate.14;Target=Q9ZR08
+
+Chr6	exonerate	match	14235914	14236148	.	+	.	ID=exonerate.15;Target=Q764T8
+Chr6	exonerate	match	14243308	14243465	.	+	.	ID=exonerate.15;Target=Q764T8
+Chr6	exonerate	match	14243830	14243919	.	+	.	ID=exonerate.15;Target=Q764T8
+Chr6	exonerate	match	14244011	14244199	.	+	.	ID=exonerate.15;Target=Q764T8
+Chr6	exonerate	match	14244912	14244996	.	+	.	ID=exonerate.15;Target=Q764T8
+Chr6	exonerate	match	14245131	14245309	.	+	.	ID=exonerate.15;Target=Q764T8
+
+Chr8	exonerate	match	21323967	21324152	.	+	.	ID=exonerate.16;Target=Q67XC9
+Chr8	exonerate	match	21324245	21324385	.	+	.	ID=exonerate.16;Target=Q67XC9
+Chr8	exonerate	match	21324469	21324540	.	+	.	ID=exonerate.16;Target=Q67XC9
+Chr8	exonerate	match	21324634	21324732	.	+	.	ID=exonerate.16;Target=Q67XC9
+Chr8	exonerate	match	21324827	21324877	.	+	.	ID=exonerate.16;Target=Q67XC9
+Chr8	exonerate	match	21325013	21325114	.	+	.	ID=exonerate.16;Target=Q67XC9
+Chr8	exonerate	match	21325294	21325371	.	+	.	ID=exonerate.16;Target=Q67XC9
+Chr8	exonerate	match	21325573	21325642	.	+	.	ID=exonerate.16;Target=Q67XC9
+Chr8	exonerate	match	21325772	21325935	.	+	.	ID=exonerate.16;Target=Q67XC9
+Chr8	exonerate	match	21326728	21326772	.	+	.	ID=exonerate.16;Target=Q67XC9
+
+Chr10	exonerate	match	24364237	24365295	.	-	.	ID=exonerate.17;Target=Q9BBT0
+
+Chr10	exonerate	match	11529362	11529451	.	-	.	ID=exonerate.18;Target=Q9SCV3
+Chr10	exonerate	match	11529124	11529219	.	-	.	ID=exonerate.18;Target=Q9SCV3
+Chr10	exonerate	match	11528389	11528501	.	-	.	ID=exonerate.18;Target=Q9SCV3
+Chr10	exonerate	match	11528203	11528269	.	-	.	ID=exonerate.18;Target=Q9SCV3
+Chr10	exonerate	match	11528012	11528104	.	-	.	ID=exonerate.18;Target=Q9SCV3
+Chr10	exonerate	match	11527745	11527897	.	-	.	ID=exonerate.18;Target=Q9SCV3
+Chr10	exonerate	match	11527546	11527634	.	-	.	ID=exonerate.18;Target=Q9SCV3
+Chr10	exonerate	match	11527322	11527427	.	-	.	ID=exonerate.18;Target=Q9SCV3
+Chr10	exonerate	match	11527157	11527244	.	-	.	ID=exonerate.18;Target=Q9SCV3
+Chr10	exonerate	match	11526948	11527033	.	-	.	ID=exonerate.18;Target=Q9SCV3
+
+Chr11	exonerate	match	3175521	3175580	.	+	.	ID=exonerate.19;Target=Q96292
+Chr11	exonerate	match	3175678	3176071	.	+	.	ID=exonerate.19;Target=Q96292
+Chr11	exonerate	match	3176146	3176759	.	+	.	ID=exonerate.19;Target=Q96292
+Chr11	exonerate	match	3176850	3176912	.	+	.	ID=exonerate.19;Target=Q96292
+
+Chr1	exonerate	match	36778664	36779824	.	+	.	ID=exonerate.20;Target=Q9SNB8
+
+Chr1	exonerate	match	31881000	31881251	.	-	.	ID=exonerate.21;Target=Q7Y223
+Chr1	exonerate	match	31880708	31880905	.	-	.	ID=exonerate.21;Target=Q7Y223
+Chr1	exonerate	match	31880402	31880524	.	-	.	ID=exonerate.21;Target=Q7Y223
+Chr1	exonerate	match	31880062	31880279	.	-	.	ID=exonerate.21;Target=Q7Y223
+Chr1	exonerate	match	31879603	31879951	.	-	.	ID=exonerate.21;Target=Q7Y223
+
+Chr2	exonerate	match	34388335	34388586	.	-	.	ID=exonerate.22;Target=Q6ZHE5
+Chr2	exonerate	match	34388122	34388187	.	-	.	ID=exonerate.22;Target=Q6ZHE5
+Chr2	exonerate	match	34387734	34387928	.	-	.	ID=exonerate.22;Target=Q6ZHE5
+Chr2	exonerate	match	34387512	34387622	.	-	.	ID=exonerate.22;Target=Q6ZHE5
+Chr2	exonerate	match	34387028	34387119	.	-	.	ID=exonerate.22;Target=Q6ZHE5
+Chr2	exonerate	match	34386392	34386481	.	-	.	ID=exonerate.22;Target=Q6ZHE5
+Chr2	exonerate	match	34386203	34386260	.	-	.	ID=exonerate.22;Target=Q6ZHE5
+Chr2	exonerate	match	34386020	34386133	.	-	.	ID=exonerate.22;Target=Q6ZHE5
