@@ -1,0 +1,339 @@
+STATUS: Parsing control files...
+STATUS: Processing and indexing input FASTA files...
+STATUS: Setting up database for any GFF3 input...
+A data structure will be created for you at:
+/ifs1/User/pengjx/project/Rice/06.annotation/maker/58S/58S.genome.maker.output/58S.genome_datastore
+
+To access files for individual sequences use the datastore index:
+/ifs1/User/pengjx/project/Rice/06.annotation/maker/58S/58S.genome.maker.output/58S.genome_master_datastore_index.log
+
+STATUS: Now running MAKER...
+examining contents of the fasta file and run log
+
+
+
+--Next Contig--
+
+#---------------------------------------------------------------------
+Now starting the contig!!
+SeqID: Chr1
+Length: 43788308
+#---------------------------------------------------------------------
+
+
+examining contents of the fasta file and run log
+
+
+
+--Next Contig--
+
+#---------------------------------------------------------------------
+Now starting the contig!!
+SeqID: Chr2
+Length: 37679110
+#---------------------------------------------------------------------
+
+
+examining contents of the fasta file and run log
+
+
+
+--Next Contig--
+
+#---------------------------------------------------------------------
+Now starting the contig!!
+SeqID: Chr3
+Length: 38713935
+#---------------------------------------------------------------------
+
+
+examining contents of the fasta file and run log
+
+
+
+--Next Contig--
+
+#---------------------------------------------------------------------
+Now starting the contig!!
+SeqID: Chr4
+Length: 36912540
+#---------------------------------------------------------------------
+
+
+setting up GFF3 output and fasta chunks
+examining contents of the fasta file and run log
+
+
+
+--Next Contig--
+
+#---------------------------------------------------------------------
+Now starting the contig!!
+SeqID: Chr5
+Length: 30689756
+#---------------------------------------------------------------------
+
+
+setting up GFF3 output and fasta chunks
+examining contents of the fasta file and run log
+
+
+
+--Next Contig--
+
+#---------------------------------------------------------------------
+Now starting the contig!!
+SeqID: Chr6
+Length: 31806780
+#---------------------------------------------------------------------
+
+
+examining contents of the fasta file and run log
+
+
+
+--Next Contig--
+
+#---------------------------------------------------------------------
+Now starting the contig!!
+SeqID: Chr7
+Length: 30503912
+#---------------------------------------------------------------------
+
+
+examining contents of the fasta file and run log
+
+
+
+--Next Contig--
+
+setting up GFF3 output and fasta chunks
+#---------------------------------------------------------------------
+Now starting the contig!!
+SeqID: Chr8
+Length: 30240396
+#---------------------------------------------------------------------
+
+
+setting up GFF3 output and fasta chunks
+setting up GFF3 output and fasta chunks
+examining contents of the fasta file and run log
+
+
+
+--Next Contig--
+
+#---------------------------------------------------------------------
+Now starting the contig!!
+SeqID: Chr9
+Length: 23029981
+#---------------------------------------------------------------------
+
+
+setting up GFF3 output and fasta chunks
+examining contents of the fasta file and run log
+
+
+
+--Next Contig--
+
+#---------------------------------------------------------------------
+Now starting the contig!!
+SeqID: Chr10
+Length: 25287139
+#---------------------------------------------------------------------
+
+
+doing repeat masking
+doing repeat masking
+setting up GFF3 output and fasta chunks
+running  repeat masker.
+#--------- command -------------#
+Widget::RepeatMasker:
+cd /tmp/maker_YqlA2P; /ifs1/User/pengjx/biosoft/RepeatMasker/RepeatMasker /ifs1/User/pengjx/project/Rice/06.annotation/maker/58S/58S.genome.maker.output/58S.genome_datastore/E9/36/Chr2//theVoid.Chr2/0/Chr2.0.rice.rb -species rice -dir /ifs1/User/pengjx/project/Rice/06.annotation/maker/58S/58S.genome.maker.output/58S.genome_datastore/E9/36/Chr2//theVoid.Chr2/0 -pa 1
+#-------------------------------#
+examining contents of the fasta file and run log
+
+
+
+--Next Contig--
+
+#---------------------------------------------------------------------
+Now starting the contig!!
+SeqID: Chr11
+Length: 33688037
+#---------------------------------------------------------------------
+
+
+doing repeat masking
+examining contents of the fasta file and run log
+
+
+
+--Next Contig--
+
+#---------------------------------------------------------------------
+Now starting the contig!!
+SeqID: Chr12
+Length: 27221643
+#---------------------------------------------------------------------
+
+
+setting up GFF3 output and fasta chunks
+setting up GFF3 output and fasta chunks
+examining contents of the fasta file and run log
+examining contents of the fasta file and run log
+examining contents of the fasta file and run log
+examining contents of the fasta file and run log
+examining contents of the fasta file and run log
+examining contents of the fasta file and run log
+examining contents of the fasta file and run log
+
+
+
+--Next Contig--
+
+
+
+
+--Next Contig--
+
+
+
+
+--Next Contig--
+
+
+
+
+--Next Contig--
+
+
+
+
+--Next Contig--
+
+
+
+
+--Next Contig--
+
+
+
+
+--Next Contig--
+
+#---------------------------------------------------------------------
+Now starting the contig!!
+SeqID: unanchor1
+Length: 53743
+#---------------------------------------------------------------------
+
+
+#---------------------------------------------------------------------
+Now starting the contig!!
+SeqID: unanchor2
+Length: 17338
+#---------------------------------------------------------------------
+
+
+#---------------------------------------------------------------------
+Now starting the contig!!
+SeqID: unanchor3
+Length: 78021
+#---------------------------------------------------------------------
+
+
+#---------------------------------------------------------------------
+Now starting the contig!!
+SeqID: unanchor6
+Length: 32775
+#---------------------------------------------------------------------
+
+
+setting up GFF3 output and fasta chunks
+setting up GFF3 output and fasta chunks
+#---------------------------------------------------------------------
+Now starting the contig!!
+SeqID: unanchor4
+Length: 38574
+#---------------------------------------------------------------------
+
+
+#---------------------------------------------------------------------
+Now starting the contig!!
+SeqID: unanchor5
+Length: 35869
+#---------------------------------------------------------------------
+
+
+setting up GFF3 output and fasta chunks
+setting up GFF3 output and fasta chunks
+setting up GFF3 output and fasta chunks
+setting up GFF3 output and fasta chunks
+doing repeat masking
+#---------------------------------------------------------------------
+Now starting the contig!!
+SeqID: unanchor7
+Length: 102635
+#---------------------------------------------------------------------
+
+
+setting up GFF3 output and fasta chunks
+setting up GFF3 output and fasta chunks
+doing repeat masking
+doing repeat masking
+doing repeat masking
+doing repeat masking
+doing repeat masking
+doing repeat masking
+doing repeat masking
+doing repeat masking
+doing repeat masking
+setting up GFF3 output and fasta chunks
+setting up GFF3 output and fasta chunks
+doing repeat masking
+doing repeat masking
+doing repeat masking
+doing repeat masking
+doing repeat masking
+doing repeat masking
+ERROR: RepeatMasker failed
+--> rank=16, hostname=localhost.localdomain
+ERROR: Failed while doing repeat masking
+ERROR: Chunk failed at level:0, tier_type:1
+FAILED CONTIG:Chr2
+
+ERROR: Chunk failed at level:2, tier_type:0
+FAILED CONTIG:Chr2
+
+examining contents of the fasta file and run log
+
+
+
+--Next Contig--
+
+#---------------------------------------------------------------------
+Now starting the contig!!
+SeqID: unanchor8
+Length: 55126
+#---------------------------------------------------------------------
+
+
+setting up GFF3 output and fasta chunks
+doing repeat masking
+Perl exited with active threads:
+	1 running and unjoined
+	0 finished and unjoined
+	0 running and detached
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 1932297 RUNNING AT localhost.localdomain
+=   EXIT CODE: 9
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+YOUR APPLICATION TERMINATED WITH THE EXIT STRING: Segmentation fault (signal 11)
+This typically refers to a problem with your application.
+Please see the FAQ page for debugging suggestions
