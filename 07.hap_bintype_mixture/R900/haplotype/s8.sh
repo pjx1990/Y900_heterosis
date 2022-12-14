@@ -1,0 +1,1 @@
+Rscript /ifs1/User/pengjx/project/Rice/09.indica_japonica_mix/3KRG-HAP-master/scripts/draw_bin.rice.R /ifs1/User/pengjx/project/Rice/09.indica_japonica_mix/3KRG-HAP-master/data/chr.len R900.bin_NAF R900.bin_NAF.pdf
