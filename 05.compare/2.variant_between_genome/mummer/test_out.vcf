@@ -1,0 +1,50 @@
+##fileformat=VCFv4.2
+##fileDate=20210429
+##source=my-mummer-2-vcf.py
+##reference=../58S.genome.fa
+##contig=<ID=Chr1,length=43788308>
+##contig=<ID=Chr2,length=37679110>
+##contig=<ID=Chr3,length=38713935>
+##contig=<ID=Chr4,length=36912540>
+##contig=<ID=Chr5,length=30689756>
+##contig=<ID=Chr6,length=31806780>
+##contig=<ID=Chr7,length=30503912>
+##contig=<ID=Chr8,length=30240396>
+##contig=<ID=Chr9,length=23029981>
+##contig=<ID=Chr10,length=25287139>
+##contig=<ID=Chr11,length=33688037>
+##contig=<ID=Chr12,length=27221643>
+##contig=<ID=unanchor51,length=5588>
+##contig=<ID=unanchor72,length=69658>
+##contig=<ID=unanchor123,length=62545>
+##contig=<ID=unanchor126,length=37036>
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+Chr1	35188	.	G	GG	.	.	INDEL	Chr1:42648
+Chr1	36503	.	A	G	.	.	.	Chr1:43962
+Chr1	36910	.	C	T	.	.	.	Chr1:44369
+Chr1	39099	.	A	G	.	.	.	Chr1:46558
+Chr1	39489	.	C	T	.	.	.	Chr1:46948
+Chr1	39778	.	A	AA	.	.	INDEL	Chr1:47239
+Chr1	40671	.	A	C	.	.	.	Chr1:48131
+Chr1	43821	.	T	C	.	.	.	Chr1:51281
+Chr1	48044	.	C	A	.	.	.	Chr1:55504
+Chr1	60830	.	A	G	.	.	.	Chr1:68290
+Chr1	71663	.	G	GC	.	.	INDEL	Chr1:79125
+Chr1	71667	.	GC	G	.	.	INDEL	Chr1:79128
+Chr1	71688	.	G	A	.	.	.	Chr1:79148
+Chr1	86113	.	T	G	.	.	.	Chr1:93573
+Chr1	86375	.	C	T	.	.	.	Chr1:93835
+Chr1	90115	.	A	C	.	.	.	Chr1:97575
+Chr1	179372	.	C	T	.	.	.	Chr1:171646
+Chr1	181791	.	AA	A	.	.	INDEL	Chr1:174065
+Chr1	181851	.	T	C	.	.	.	Chr1:174124
+Chr1	183556	.	G	A	.	.	.	Chr1:175829
+Chr1	187961	.	G	GG	.	.	INDEL	Chr1:180236
+Chr1	187961	.	G	GG	.	.	INDEL	Chr1:180237
+Chr1	195748	.	G	GG	.	.	INDEL	Chr1:188035
+Chr1	195748	.	G	GA	.	.	INDEL	Chr1:188036
+Chr1	195748	.	G	GA	.	.	INDEL	Chr1:188037
+Chr1	195776	.	CTCTC	C	.	.	INDEL	Chr1:188064
+Chr1	195849	.	G	A	.	.	.	Chr1:188133
+Chr1	195892	.	A	AA	.	.	INDEL	Chr1:188178

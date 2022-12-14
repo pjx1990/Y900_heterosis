@@ -1,0 +1,2 @@
+syri结合了minimap2和mumer，同样地，mumer过滤参数如果用-1，则非常非常慢
+

@@ -1,0 +1,100 @@
+##fileformat=VCFv4.3
+##fileDate=20210616
+##source=syri
+##ALT=<ID=SYN,Description="Syntenic region">
+##ALT=<ID=INV,Description="Inversion">
+##ALT=<ID=TRANS,Description="Translocation">
+##ALT=<ID=INVTR,Description="Inverted Translocation">
+##ALT=<ID=DUP,Description="Duplication">
+##ALT=<ID=INVDP,Description="Inverted Duplication">
+##ALT=<ID=SYNAL,Description="Syntenic alignment">
+##ALT=<ID=INVAL,Description="Inversion alignment">
+##ALT=<ID=TRANSAL,Description="Translocation alignment">
+##ALT=<ID=INVTRAL,Description="Inverted Translocation alignment">
+##ALT=<ID=DUPAL,Description="Duplication alignment">
+##ALT=<ID=INVDPAL,Description="Inverted Duplication alignment">
+##ALT=<ID=HDR,Description="Highly diverged regions">
+##ALT=<ID=INS,Description="Insertion in non-reference genome">
+##ALT=<ID=DEL,Description="Deletion in non-reference genome">
+##ALT=<ID=CPG,Description="Copy gain in non-reference genome">
+##ALT=<ID=CPL,Description="Copy loss in non-reference genome">
+##ALT=<ID=SNP,Description="Single nucleotide polymorphism">
+##ALT=<ID=TDM,Description="Tandem repeat">
+##ALT=<ID=NOTAL,Description="Not Aligned region">
+##INFO=<ID=END,Number=1,Type=Integer,Description="End position on reference genome">
+##INFO=<ID=ChrB,Number=1,Type=String,Description="Chromoosme ID on the non-reference genome">
+##INFO=<ID=StartB,Number=1,Type=Integer,Description="Start position on non-reference genome">
+##INFO=<ID=EndB,Number=1,Type=Integer,Description="End position on non-reference genome">
+##INFO=<ID=Parent,Number=1,Type=String,Description="ID of the parent SR">
+##INFO=<ID=VarType,Number=1,Type=String,Description="Start position on non-reference genome">
+##INFO=<ID=DupType,Number=1,Type=String,Description="Copy gain or loss in the non-reference genome">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+Chr1	1	NOTAL1	N	<NOTAL>	.	PASS	END=1000;ChrB=.;StartB=.;EndB=.;Parent=.;VarType=.;DupType=.
+Chr1	1001	INVDP23101	N	<INVDP>	.	PASS	END=1114;ChrB=Chr12;StartB=171401;EndB=171514;Parent=.;VarType=SR;DupType=copygain
+Chr1	1001	INVDPAL28872	N	<INVDPAL>	.	PASS	END=1114;ChrB=Chr12;StartB=171514;EndB=171401;Parent=INVDP23101;VarType=.;DupType=.
+Chr1	1001	INVDP23102	N	<INVDP>	.	PASS	END=1115;ChrB=Chr12;StartB=26998749;EndB=26998863;Parent=.;VarType=SR;DupType=copygain
+Chr1	1001	INVDPAL28873	N	<INVDPAL>	.	PASS	END=1115;ChrB=Chr12;StartB=26998863;EndB=26998749;Parent=INVDP23102;VarType=.;DupType=.
+Chr1	1001	DUP23104	N	<DUP>	.	PASS	END=1116;ChrB=Chr2;StartB=12929;EndB=13043;Parent=.;VarType=SR;DupType=copygain
+Chr1	1001	DUPAL28875	N	<DUPAL>	.	PASS	END=1116;ChrB=Chr2;StartB=12929;EndB=13043;Parent=DUP23104;VarType=.;DupType=.
+Chr1	1001	DUP23106	N	<DUP>	.	PASS	END=1116;ChrB=Chr7;StartB=2764;EndB=2880;Parent=.;VarType=SR;DupType=copygain
+Chr1	1001	DUPAL28877	N	<DUPAL>	.	PASS	END=1116;ChrB=Chr7;StartB=2764;EndB=2880;Parent=DUP23106;VarType=.;DupType=.
+Chr1	1001	DUP23107	N	<DUP>	.	PASS	END=1116;ChrB=Chr7;StartB=15941;EndB=16056;Parent=.;VarType=SR;DupType=copygain
+Chr1	1001	DUPAL28878	N	<DUPAL>	.	PASS	END=1116;ChrB=Chr7;StartB=15941;EndB=16056;Parent=DUP23107;VarType=.;DupType=.
+Chr1	1001	INVDP23103	N	<INVDP>	.	PASS	END=1116;ChrB=Chr12;StartB=26978532;EndB=26978647;Parent=.;VarType=SR;DupType=copygain
+Chr1	1001	INVDPAL28874	N	<INVDPAL>	.	PASS	END=1116;ChrB=Chr12;StartB=26978647;EndB=26978532;Parent=INVDP23103;VarType=.;DupType=.
+Chr1	1001	INVDP23105	N	<INVDP>	.	PASS	END=1116;ChrB=Chr2;StartB=37634133;EndB=37634248;Parent=.;VarType=SR;DupType=copygain
+Chr1	1001	INVDPAL28876	N	<INVDPAL>	.	PASS	END=1116;ChrB=Chr2;StartB=37634248;EndB=37634133;Parent=INVDP23105;VarType=.;DupType=.
+Chr1	1001	SYN1	N	<SYN>	.	PASS	END=100150;ChrB=Chr1;StartB=13833;EndB=113007;Parent=.;VarType=SR;DupType=-
+Chr1	1001	SYNAL1	N	<SYNAL>	.	PASS	END=100150;ChrB=Chr1;StartB=13833;EndB=113007;Parent=SYN1;VarType=.;DupType=.
+Chr1	1003	DUP16923	N	<DUP>	.	PASS	END=1116;ChrB=Chr1;StartB=10829;EndB=10943;Parent=.;VarType=SR;DupType=copygain
+Chr1	1003	DUPAL22208	N	<DUPAL>	.	PASS	END=1116;ChrB=Chr1;StartB=10829;EndB=10943;Parent=DUP16923;VarType=.;DupType=.
+Chr1	1003	DUP23109	N	<DUP>	.	PASS	END=1116;ChrB=Chr7;StartB=17529;EndB=17642;Parent=.;VarType=SR;DupType=copygain
+Chr1	1003	DUPAL28880	N	<DUPAL>	.	PASS	END=1116;ChrB=Chr7;StartB=17529;EndB=17642;Parent=DUP23109;VarType=.;DupType=.
+Chr1	1003	INVDP23108	N	<INVDP>	.	PASS	END=1116;ChrB=Chr12;StartB=26997234;EndB=26997348;Parent=.;VarType=SR;DupType=copygain
+Chr1	1003	INVDPAL28879	N	<INVDPAL>	.	PASS	END=1116;ChrB=Chr12;StartB=26997348;EndB=26997234;Parent=INVDP23108;VarType=.;DupType=.
+Chr1	1004	DUP23111	N	<DUP>	.	PASS	END=1116;ChrB=Chr2;StartB=13027;EndB=13140;Parent=.;VarType=SR;DupType=copygain
+Chr1	1004	DUPAL28882	N	<DUPAL>	.	PASS	END=1116;ChrB=Chr2;StartB=13027;EndB=13140;Parent=DUP23111;VarType=.;DupType=.
+Chr1	1004	DUP23112	N	<DUP>	.	PASS	END=1116;ChrB=Chr4;StartB=6327;EndB=6439;Parent=.;VarType=SR;DupType=copygain
+Chr1	1004	DUPAL28883	N	<DUPAL>	.	PASS	END=1116;ChrB=Chr4;StartB=6327;EndB=6439;Parent=DUP23112;VarType=.;DupType=.
+Chr1	1004	DUP23113	N	<DUP>	.	PASS	END=1116;ChrB=Chr6;StartB=6768;EndB=6881;Parent=.;VarType=SR;DupType=copygain
+Chr1	1004	DUPAL28884	N	<DUPAL>	.	PASS	END=1116;ChrB=Chr6;StartB=6768;EndB=6881;Parent=DUP23113;VarType=.;DupType=.
+Chr1	1004	INVDP23110	N	<INVDP>	.	PASS	END=1116;ChrB=Chr12;StartB=26978464;EndB=26978576;Parent=.;VarType=SR;DupType=copygain
+Chr1	1004	INVDPAL28881	N	<INVDPAL>	.	PASS	END=1116;ChrB=Chr12;StartB=26978576;EndB=26978464;Parent=INVDP23110;VarType=.;DupType=.
+Chr1	1023	DEL5509	TA	T	.	PASS	END=1024;ChrB=Chr1;StartB=13855;EndB=13855;Parent=SYN1;VarType=ShV;DupType=.
+Chr1	1044	DEL5510	TA	T	.	PASS	END=1045;ChrB=Chr1;StartB=13875;EndB=13875;Parent=SYN1;VarType=ShV;DupType=.
+Chr1	1058	INS5511	T	TA	.	PASS	END=1058;ChrB=Chr1;StartB=13888;EndB=13889;Parent=SYN1;VarType=ShV;DupType=.
+Chr1	23373	INS5512	T	TCTAT	.	PASS	END=23373;ChrB=Chr1;StartB=36204;EndB=36208;Parent=SYN1;VarType=ShV;DupType=.
+Chr1	27973	INS5513	A	ATATATATATATATATATATATATATATATATATATATATATATATATATATATA	.	PASS	END=27973;ChrB=Chr1;StartB=40808;EndB=40862;Parent=SYN1;VarType=ShV;DupType=.
+Chr1	29744	INS5514	A	AGG	.	PASS	END=29744;ChrB=Chr1;StartB=42633;EndB=42635;Parent=SYN1;VarType=ShV;DupType=.
+Chr1	31071	SNP5515	A	G	.	PASS	END=31071;ChrB=Chr1;StartB=43962;EndB=43962;Parent=SYN1;VarType=ShV;DupType=.
+Chr1	31478	SNP5516	C	T	.	PASS	END=31478;ChrB=Chr1;StartB=44369;EndB=44369;Parent=SYN1;VarType=ShV;DupType=.
+Chr1	33667	SNP5517	A	G	.	PASS	END=33667;ChrB=Chr1;StartB=46558;EndB=46558;Parent=SYN1;VarType=ShV;DupType=.
+Chr1	34057	SNP5518	C	T	.	PASS	END=34057;ChrB=Chr1;StartB=46948;EndB=46948;Parent=SYN1;VarType=ShV;DupType=.
+Chr1	34347	INS5519	A	AA	.	PASS	END=34347;ChrB=Chr1;StartB=47238;EndB=47239;Parent=SYN1;VarType=ShV;DupType=.
+Chr1	35239	SNP5520	A	C	.	PASS	END=35239;ChrB=Chr1;StartB=48131;EndB=48131;Parent=SYN1;VarType=ShV;DupType=.
+Chr1	38389	SNP5521	T	C	.	PASS	END=38389;ChrB=Chr1;StartB=51281;EndB=51281;Parent=SYN1;VarType=ShV;DupType=.
+Chr1	41890	SNP5522	T	C	.	PASS	END=41890;ChrB=Chr1;StartB=54782;EndB=54782;Parent=SYN1;VarType=ShV;DupType=.
+Chr1	42612	SNP5523	C	A	.	PASS	END=42612;ChrB=Chr1;StartB=55504;EndB=55504;Parent=SYN1;VarType=ShV;DupType=.
+Chr1	46442	SNP5524	C	T	.	PASS	END=46442;ChrB=Chr1;StartB=59334;EndB=59334;Parent=SYN1;VarType=ShV;DupType=.
+Chr1	46471	SNP5525	A	G	.	PASS	END=46471;ChrB=Chr1;StartB=59363;EndB=59363;Parent=SYN1;VarType=ShV;DupType=.
+Chr1	49376	SNP5526	G	A	.	PASS	END=49376;ChrB=Chr1;StartB=62268;EndB=62268;Parent=SYN1;VarType=ShV;DupType=.
+Chr1	50592	SNP5527	A	G	.	PASS	END=50592;ChrB=Chr1;StartB=63484;EndB=63484;Parent=SYN1;VarType=ShV;DupType=.
+Chr1	55398	SNP5528	A	G	.	PASS	END=55398;ChrB=Chr1;StartB=68290;EndB=68290;Parent=SYN1;VarType=ShV;DupType=.
+Chr1	67141	SNP5529	A	G	.	PASS	END=67141;ChrB=Chr1;StartB=80033;EndB=80033;Parent=SYN1;VarType=ShV;DupType=.
+Chr1	68265	INVDP23114	N	<INVDP>	.	PASS	END=69462;ChrB=Chr2;StartB=8084830;EndB=8086026;Parent=.;VarType=SR;DupType=copygain
+Chr1	68265	INVDPAL28885	N	<INVDPAL>	.	PASS	END=69462;ChrB=Chr2;StartB=8086026;EndB=8084830;Parent=INVDP23114;VarType=.;DupType=.
+Chr1	80681	SNP5530	T	G	.	PASS	END=80681;ChrB=Chr1;StartB=93573;EndB=93573;Parent=SYN1;VarType=ShV;DupType=.
+Chr1	80943	SNP5531	C	T	.	PASS	END=80943;ChrB=Chr1;StartB=93835;EndB=93835;Parent=SYN1;VarType=ShV;DupType=.
+Chr1	84683	SNP5532	A	C	.	PASS	END=84683;ChrB=Chr1;StartB=97575;EndB=97575;Parent=SYN1;VarType=ShV;DupType=.
+Chr1	94574	INVDP23115	N	<INVDP>	.	PASS	END=96836;ChrB=Chr10;StartB=6169185;EndB=6171423;Parent=.;VarType=SR;DupType=copygain
+Chr1	94574	INVDPAL28886	N	<INVDPAL>	.	PASS	END=96836;ChrB=Chr10;StartB=6171423;EndB=6169185;Parent=INVDP23115;VarType=.;DupType=.
+Chr1	96769	INS5533	C	CC	.	PASS	END=96769;ChrB=Chr1;StartB=109661;EndB=109662;Parent=SYN1;VarType=ShV;DupType=.
+Chr1	97092	DEL5534	GCTGGTGCTCGCGGTGTTAGCCGCGAGATCGTGGAGG	G	.	PASS	END=97128;ChrB=Chr1;StartB=109985;EndB=109985;Parent=SYN1;VarType=ShV;DupType=.
+Chr1	100151	DUP23116	N	<DUP>	.	PASS	END=103715;ChrB=Chr6;StartB=27454048;EndB=27457612;Parent=.;VarType=SR;DupType=copyloss
+Chr1	100151	DUPAL28887	N	<DUPAL>	.	PASS	END=103715;ChrB=Chr6;StartB=27454048;EndB=27457612;Parent=DUP23116;VarType=.;DupType=.
+Chr1	103714	SYN2	N	<SYN>	.	PASS	END=106521;ChrB=Chr1;StartB=113002;EndB=115808;Parent=.;VarType=SR;DupType=-
+Chr1	103714	SYNAL2	N	<SYNAL>	.	PASS	END=106521;ChrB=Chr1;StartB=113002;EndB=115808;Parent=SYN2;VarType=.;DupType=.
+Chr1	104851	DEL5535	GG	G	.	PASS	END=104852;ChrB=Chr1;StartB=114139;EndB=114139;Parent=SYN2;VarType=ShV;DupType=.
+Chr1	105111	SNP5536	C	T	.	PASS	END=105111;ChrB=Chr1;StartB=114398;EndB=114398;Parent=SYN2;VarType=ShV;DupType=.
+Chr1	106521	DUP23117	N	<DUP>	.	PASS	END=118081;ChrB=Chr5;StartB=24027456;EndB=24039013;Parent=.;VarType=SR;DupType=copyloss
+Chr1	106521	DUPAL28888	N	<DUPAL>	.	PASS	END=118081;ChrB=Chr5;StartB=24027456;EndB=24039013;Parent=DUP23117;VarType=.;DupType=.
